@@ -27,7 +27,6 @@ class Controls {
         default:
           break;
       }
-      console.table(this);
     };
     document.onkeyup = (e) => {
       switch (e.key) {
